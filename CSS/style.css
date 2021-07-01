@@ -1,0 +1,142 @@
+body
+{
+    font-family: 'Merriweather', serif;
+    padding-top: 70px;
+    overflow-x: hidden;
+}
+
+.navbar-nav
+{
+    
+    font-size: 1.1rem;
+}
+
+.navbar-nav li a
+{
+color: black;
+}
+
+.navbar-brand
+{
+    color: rgb(224, 21, 21);
+    font-weight: 550;
+    font-size: 2.4rem;
+    font-family: 'Monoton', cursive;
+}
+
+header img
+{
+    height: 100vh;
+    width: 100%;
+    
+}
+
+header .layer
+{
+    position: absolute;
+    top: 70px;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+
+    height: 100vh;
+    background-color: rgba(58, 58, 68, 0.3);
+    z-index: 5;
+}
+
+header .title
+{
+    position: absolute;
+    top: 32%;
+    left: 3%;
+    z-index: 10;
+    font-size: 4rem;
+    color:rgba(255, 255, 255, 0.8);
+    font-weight: 900;
+    
+    font-family: 'Montserrat', sans-serif;
+}
+
+header .title1
+{
+    position: absolute;
+    top: 32%;
+    right: 5%;
+    z-index: 12;
+    font-size: 3.2rem;
+    color:rgba(255, 255, 255,.7);
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+
+header .btn-danger
+{
+    position: absolute;
+    top: 70%;
+    left: 3%;
+    z-index: 10;
+    font-size: 1.3rem;
+    background-color: rgb(175, 17, 17);
+    color:rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    
+}
+
+.card .card-title
+{
+    font-size: 2.6rem;
+}
+
+.card .para
+{
+    font-size: 1.4rem;
+}
+
+li i{
+    font-size: 10px;
+    padding-top: 2px;
+}
+.line
+{
+    width: 20%;
+    
+    border-color: rgb(175, 17, 17);
+    border-width: 2px;
+    border-style: solid;
+    margin-bottom: 15px;
+}
+
+.h-40
+{
+    height: 40%;
+}
+
+.btn-danger
+{
+    background-color: rgb(175, 17, 17);
+    
+}
+
+.bg-dark
+{
+    background-color: black !important;
+}
+
+.bg-gray
+{
+    background-color: rgb(53, 51, 51);
+    
+}
+
+footer
+{
+    background-color: rgb(175, 17, 17);
+    text-align: center;
+    padding: 30px 0px;
+    padding-bottom: 5px;
+    color: rgb(255, 255, 255);
+}
